@@ -10,15 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.1",
     "@heroicons/react": "^2.1.5",
+    "@hookform/resolvers": "^3.9.1",
     "@types/react": "npm:types-react@rc",
     "@types/react-dom": "npm:types-react-dom@rc",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "react": "19.0.0-rc-b8ae38f8-20241018",
     "react-dom": "19.0.0-rc-b8ae38f8-20241018",
+    "react-hook-form": "^7.53.1",
     "react-router-dom": "^6.27.0",
-    "tailwind-merge": "^2.5.4"
+    "tailwind-merge": "^2.5.4",
+    "use-debounce": "^10.0.4",
+    "zod": "^3.23.8"
   },
   "overrides": {
     "@types/react": "npm:types-react@rc",

@@ -1,18 +1,8 @@
-import { FC, useState, useEffect } from "react";
+import { FC } from "react";
 import { Outlet } from "react-router-dom";
 import { cn } from "@/utils";
 
 const RootLayout: FC = () => {
-  const [hydrated, setHydrated] = useState(false);
-
-  useEffect(() => {
-    setHydrated(true);
-  }, []);
-
-  if (!hydrated) {
-    return null;
-  }
-
   return (
     <div
       className={cn(
